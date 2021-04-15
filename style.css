@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.form__background {
+    width: 410px;
+    height: 490px;
+    background-color: #b86bd5; /*#3b27ac*/
+    margin: 100px auto;
+    padding-top: 1px;
+}
+
+.registraition {
+    width: 270px;
+    height: 60px;
+    margin-left: 70px;
+    margin-top: 60px;
+
+}
+
+.reg__btn {
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.sign__link a {
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.reg__link {
+    font-size: 20px;
+    font-family: sans-serif;
+    color: #fff;
+}
+/*
+.sign__in--active {
+    border:2px solid red;
+}*/
+
+.user__info {
+    width: 270px;
+    height: 300px;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+
+.user__info-input {
+    width: 270px;
+    height: 40px;
+    background-color: rgb(247, 242, 242, 0);
+    border: 1px solid rgb(197, 190, 190, .6);
+}
+
+.user__data {
+    font-size: 25px;
+    font-family: sans-serif;
+    color: #fff;
+    padding-top: 20px;
+}
+
+.user__info-submit{
+    width: 270px;
+    height: 40px;
+    background-color: rgb(226, 74, 99);
+    border: 0 solid rgb(255, 255, 255, 0);
+    margin-top: 20px;
+
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 340px;
+    padding-left: 70px;
+  
+    margin-top: -30px;
+
+}
+
+.opt {
+    display: block;
+    margin: 0;
+    padding: 0;
+}
+.opt a {
+    font-size: 17px;
+}
